@@ -1,6 +1,12 @@
 *{
     text-align: center;
 }
+button{
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
 
 button:hover{
     background-color: #f0f0f0;
