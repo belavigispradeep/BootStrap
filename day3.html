@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <table border="black">
+        <caption>A test table with marges cell</caption>
+        <thead>
+            <tr>
+                <td rowspan="2"></td>
+                <td colspan="2">Averges</td>
+                <td rowspan="2">Red eyes</td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>Weight</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Male</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Female</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <form action="https://www.google.co.in/search">
+        <label for="text">Google Search</label>
+        <input type="text" placeholder="Search in Google" id="text" name="q">
+        <button>Search</button>
+    </form>
+    <input type="submit" value="hello">
+    <hr>
+    <h3>Ragistration Form</h3>
+    <form action="server">
+        <div>
+            <input type="text" id="firstname" placeholder="firstname" name="fname">
+            <label for="firstname"></label>
+            <input type="text" id="lastname" placeholder="lastname" name="lname">
+            <label for="lastname"></label>
+        </div>
+       <div>
+        <label for="gender">Place select gender :</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+       </div>
+       <div>
+        Do you agree all terms of services?
+        <input type="checkbox" id="tos_agree" name="tos_agree">
+        <label for="tos_agree">yes, I agree.</label>
+       </div>
+       <div>
+        <button>submit</button>
+       </div>
+    </form>
+</body>
+
+</html>

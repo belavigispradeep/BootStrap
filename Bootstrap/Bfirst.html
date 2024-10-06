@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bfirst.css">
+</head>
+
+<body>
+    <nav class="navbar  sticky-top navbar-expand-md" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Brand</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#">Know Us</a>
+                </div>
+            </div>
+            <form class="d-flex" role="search" action="https://www.google.co.in/search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <h2>BootStrap Demo</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias esse quasi cum doloremque ea ut laboriosam
+            blanditiis ratione laudantium sequi officiis odio, perferendis ducimus, consectetur nam magni vero
+            asperiores fugiat.
+            Ducimus blanditiis laboriosam error, doloremque at ad minus veniam culpa inventore in, quisquam voluptatibus
+            eligendi accusantium possimus ipsam a dolore molestiae esse hic porro saepe. Quaerat dolore temporibus
+            recusandae commodi!
+            Unde dolorem dolor labore, aperiam assumenda dicta sequi. Hic est amet provident repudiandae aperiam animi
+            velit at laboriosam sapiente ea omnis dolorum, sint fugit quo. Perspiciatis cum corrupti alias facere.
+            Aperiam quia iusto tempora rerum sint error obcaecati voluptas provident iste iure non mollitia placeat
+            deleniti exercitationem, veniam at aliquam facilis tenetur, ea natus cupiditate esse, suscipit nostrum
+            sapiente! Nobis?
+            Tenetur perferendis aliquam necessitatibus debitis quam, temporibus suscipit, ratione cupiditate omnis nisi
+            maiores facilis ab reprehenderit corrupti voluptates dolores et? Quod natus repellat blanditiis voluptas a
+            in nihil quia reiciendis.
+        </p>
+        <div class="card" style="width: 18rem;">
+            <img src="bird.jpg" alt="bird" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Flamingos </h5>
+                <p class="card-text">Flamingos are wading birds with long legs and necks, known for their bright pink
+                    feathers. These feathers are colored by carotenoid pigments found in their diet, which consists
+                    primarily of small crustaceans and algae.</p>
+                <a href=" https://www.audubon.org/" class="btn btn-primary" target="_blank">Know more about
+                    flamingos</a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <button class="btn btn-outline-danger">Click me</button>
+        <a href="#" class="btn btn-warning">Google me..!</a>
+        <button class="btn btn-primary">Fuck you🤞🏻</button>
+        <br>
+        <br>
+        <h6>Notification<span class="badge bg-primary">20+</span></h6>
+        <hr>
+        <button type="button" class="btn btn-primary">
+            followers <span class="badge text-bg-warning">10+</span>
+        </button>
+        <div class="alert alert-success alert-dismissible">
+            <strong>Well done!</strong> You successfully read this important alert message.
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+        <hr>
+        <div class="btn-group">
+            <button class="btn btn-warning">one</button>
+            <button class="btn btn-outline-success">Two</button>
+            <button class="btn btn-primary">three</button>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4" style="background-color: aqua;">one</div>
+            <div class="col-md-3" style="background-color: blueviolet;">two</div>
+            <div class="col-md-2" style="background-color: greenyellow;">three</div>
+            <div class="col-md-3" style="background-color: orangered;">four</div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <form class="mb-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="mail" class="form-label">Email</label>
+                    <input type="email" id="mail" placeholder="name@gmail.com" class="form-control">
+                </div>
+                <div class="col-md-6"> 
+                    <label for="password" class="form-label">Enter Your password</label>
+                    <input type="password" placeholder="Enter your password" id="password" class="form-control">
+                </div>
+            </div>
+            <div class="mt-3">
+                <select name="numbers" id="number" class="form-select">
+                    <option selected>Enter your number</option>
+                    <option value="one">One</option>
+                    <option value="two">Two</option>
+                    <option value="three">Three</option>
+                </select>
+            </div>
+            <div class="mt-3">
+                <label for="agree" class="form-check-label">Agree</label>
+                <input type="checkbox" id="agree" class="form-check-input">
+            </div>
+            <div class="mt-3">
+                <label for="yes" class="form-check-label">Yes</label>
+                <input type="radio" id="yes" class="form-check-input" name="type">
+                <label for="no" class="form-check-label">No</label>
+                <input type="radio" id="no" class="form-check-input" name="type">
+            </div>
+            <div class="form-check form-switch mt-3">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

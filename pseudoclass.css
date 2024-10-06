@@ -1,0 +1,8 @@
+.element {
+    background-color: lightyellow;
+  }
+  
+  .element:fullscreen {
+    background-color: lightpink;
+  }
+  

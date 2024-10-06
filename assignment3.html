@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_3</title>
+</head>
+
+<body>
+    <table border="black">
+        <caption>Student Information</caption>
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <hr>
+    <form action="server">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="sex">Sex: </label>
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="country">country: </label>
+            <select name="country" id="country">
+                <option value="">choice your country</option>
+                <option value="ind">India</option>
+                <option value="Nap">Napal</option>
+                <option value="sl">Shrelanka</option>
+            </select>
+        </div>
+        <div>
+            <label for="lng"> select your know language: </label>
+            <input type="checkbox" id="kan" name="lng" value="kan">
+            <label for="kan">Kannada</label>
+            <input type="checkbox" id="eng" name="lng" value="eng">
+            <label for="eng">English</label>
+            <input type="checkbox" id="hin" name="lng" value="hin">
+            <label for="hin">HIndi</label>
+        </div>
+        <div>
+            <input type="checkbox" id="sub" name="sub">
+            <label for="sub">Subscribe?</label>
+        </div>
+        <button>submit</button>
+    </form>
+    <hr>
+    <h3>Feedback Form</h3>
+    <form action="server">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="write your name">
+        </div>
+        <div>
+            <label for="mail">Email: </label>
+            <input type="email" id="mail" name="email" placeholder="Write your email">
+        </div>
+        <div>
+            <label for="message">Message: </label><br>
+            <textarea name="message" id="message" cols="30" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="ratings">Rate us our of 5 &star;</label><br>
+            <input type="radio" id="one" name="ratings" value="1">
+            <label for="one"> 1</label>
+            <br>
+            <input type="radio" id="two" name="ratings" value="2">
+            <label for="two"> 2</label>
+            <br>
+            <input type="radio" id="three" name="ratings" value="3">
+            <label for="three"> 3</label>
+            <br>
+            <input type="radio" id="four" name="ratings" value="4">
+            <label for="four"> 4</label>
+            <br>
+            <input type="radio" id="five" name="ratings" value="5">
+            <label for="five"> 5</label>
+        </div>
+        <div>
+            <label for="rang">Rate us in 1 to 100: </label>
+            <input type="range" id="range" min="1" max="100" name="rang" step="1" value="5">
+        </div>
+        <button>Send your message</button>
+    </form>
+    <hr>
+    <form action="data">
+        <h4>Higher Studyes</h4>
+        <div>
+            <label for="class">Which Class: </label>
+            <input type="radio" id="sslc" name="class" value="10">
+            <label for="sslc">SSLC</label>
+            <input type="radio" id="puc" name="class" value="12">
+            <label for="puc">PUC</label>
+            <input type="radio" id="ug" name="class" value="12+">
+            <label for="ug">UG</label>
+        </div>
+        <label for="mop">Select your mode of payment: </label>
+        <select name="mop" id="mop">
+            <option value="phonepay">Phonepay</option>
+            <option value="gpay">Googlepay</option>
+            <option value="paytem">Paytem</option>
+            <option value="Bpay">Bharatpay</option>
+        </select>
+        <div>
+            <label for="field">Which field do you like most: </label>
+            <input type="checkbox" id="fd" name="field" value="fd">
+            <label for="fd">Forntend Developer</label>
+            <input type="checkbox" id="fsd" name="field" value="fsd">
+            <label for="fsd">Full Stack Developer</label>
+            <input type="checkbox" id="ds" name="field" value="ds">
+            <label for="ds">Data Science</label>
+            <input type="checkbox" id="ai" name="field" value="ai">
+            <label for="aid">Artificial Intelligence</label>
+        </div>
+        <div>
+            <label for="kng_rating">How much knowledge do you have in this respective field: </label>
+            <input type="range" id="kng" min="0" max="10" step="1" value="0" name="kng_rating">
+        </div>
+        <div>
+            <label for="msg">Message: </label><br>
+            <textarea name="message" id="msg" rows="4" cols="30"></textarea>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+    <hr>
+    <div>
+        <form action="https://www.google.com/search">
+            <label for="search">Do you have any douct serach here: </label>
+            <input type="text" id="serach" name="q" placeholder="Search here">
+            <button>Find</button>
+        </form>
+    </div>
+    <hr>
+    <form action="server">
+        <fieldset>
+            <legend>Enter your gender</legend>
+            <input type="radio" id="man" name="gender" value="male">
+            <label for="man">Male</label>
+            <input type="radio" id="woman" name="gender" value="female">
+            <label for="woman">Female</label>
+        </fieldset>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

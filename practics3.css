@@ -1,0 +1,65 @@
+#Traffic{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+
+#Traffic div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#light1{
+  background-color: #ff0000;
+}
+
+#light2{
+  background-color: #ffff00;
+}
+
+#light3{
+  background-color: green;
+}
+
+#box{
+  height: 150px;
+  width: 300px;
+  background-color: gray;
+  border: 5px dotted black;
+  margin:20px 1em 40px 2em ;
+  padding: 1em;
+}
+
+#box1{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#box2{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#box3{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#list li{
+  display: inline;
+}
