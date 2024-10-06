@@ -4,7 +4,7 @@ let ul = document.querySelector("ul");
 
 button.addEventListener("click", function () {
   let item = document.createElement("li");
-  let text = input.value;
+  let text = input.value+" ";
   item.innerText = text;
 
   let delet = document.createElement("button");
